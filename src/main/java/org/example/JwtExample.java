@@ -10,7 +10,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class JwtExample {
-    private static final String SECRET = "seuSegredoAqui";
+    private static final String SECRET = "chaveSecreta";
 
     public static String generateToken(String subject) {
         Calendar calendar = Calendar.getInstance();
